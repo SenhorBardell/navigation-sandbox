@@ -9,7 +9,6 @@ const Screen1 = ({navigation}) => <View>
   <Button 
     title='Reset' 
     onPress={() => navigation.dispatch(CommonActions.reset({
-      index: 2,
       routes: [{name: 'Profile', params: {screen: 'Screen6'}}]
     }))}/>
     </View>
